@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    width: 40px;
+    margin: 5px;
+}
+.right {
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #1B1B1B;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    color: rgb(211, 137, 17);
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 60px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(211, 137, 17);
+}
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+.max-width .content img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    object-fit: cover;
+    margin-left: 0;
+}
+.about_text {
+    width: 70%;
+    padding: 10px 0;
+}
+.max-width{
+    padding-top: 0;
+    margin: auto 0 auto 0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+#main .right .text{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+#main .right .text span{
+    color: rgb(85, 8, 17);
+    
+}
+#main .right .text-center{
+    display:block;
+    width: 100px;
+    background: rgb(85, 8, 17);
+    color: #fff;
+    padding-top: 5px;
+    margin-left: 40%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 2px solid rgb(85, 8, 17);
+    transition: all 0.3s ease;
+}
+#welcome {
+    margin: auto;
+    justify-content: center;
+    overflow-y: auto;
+    flex: 2;
+    height: 500px;
+}
+  #sidebar {
+    flex: 1;
+    overflow-y: auto;
+    height: 500px;
+  }
+
+footer a{
+      color: rgb(211, 137, 17);
+      padding-left: 5px;
+      font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #181717;
+}
+input[type=text], textarea {
+	width: 100%; /* Full width */
+	padding: 10px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+	background-color: #181717;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #122b13;
+}
+.container {
+    width: 70%;
+	border-radius: 5px;
+	background-color: rgb(85, 8, 17);
+    color: #FFFFFF;
+	padding: 30px;
+}
